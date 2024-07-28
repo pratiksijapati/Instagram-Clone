@@ -1,0 +1,117 @@
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-left, .div-right {
+        width: 100%;
+        border: none; /* Remove borders to fit content */
+    }
+
+    .left-top, .left-body, .left-bottom, .right-top, .right-body, .right-footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left-body ul a li, .left-bottom ul a li {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .left-top img {
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .div-middle {
+        width: 100%;
+    }
+
+    .middle-navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: auto;
+        padding: 10px;
+    }
+
+    .nav-img {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+
+    .middle-main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .post img {
+        width: 100%;
+        height: auto;
+    }
+
+    .prof-img span, .time, .more {
+        font-size: 14px;
+    }
+
+    .icons i {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .comment {
+        font-size: 14px;
+    }
+
+    .right-top {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .top-img {
+        margin-bottom: 10px;
+    }
+
+    .top-name {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .top-name span {
+        font-size: 14px;
+    }
+
+    .top-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .right-title {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .right-body {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .right-footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
