@@ -1,117 +1,110 @@
 @media (max-width: 600px) {
-    body {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .div-left, .div-right {
-        width: 100%;
-        border: none; /* Remove borders to fit content */
-    }
+.div-middle{
+    width: 50%;
+    height: auto;
+}
+.div-right{
+    width: 30%;
+    height: auto;
+}
+.right-top, .right-title, .right-body{
+    width: 200px;
+    margin-left: 90%;
+}
+.middle-navbar{
+    margin-left: 0px;
+    width: 147%;
+    height: 100px;
+}
+.top-name {
+    width: auto;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.top-button button, .seeall-button{
+    font-size: 12px;
+    width: auto;
+}
+.top-button{
+    margin-left: 0px;
+}
+.right-footer{
+    margin-left: 140%;
+}
+.p {
+    font-size: 12px;
+    width: 200px;
+}
+.top-name span, .top-name, .right-title, .prof-img span {
+    font-size: 12px;
+}
+.prof-img span{
+    margin-left: 10px;
+}
 
-    .left-top, .left-body, .left-bottom, .right-top, .right-body, .right-footer {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .left-body ul a li, .left-bottom ul a li {
-        width: 100%;
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .left-top img {
-        width: 80%;
-        height: auto;
-        padding: 10px;
-    }
-
-    .div-middle {
-        width: 100%;
-    }
-
-    .middle-navbar {
-        flex-wrap: wrap;
-        justify-content: center;
-        overflow-x: auto;
-        padding: 10px;
-    }
-
-    .nav-img {
-        height: 50px;
-        width: 50px;
-        margin: 5px;
-    }
-
-    .middle-main {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .box {
-        width: 90%;
-        margin: 10px 0;
-    }
-
-    .post img {
-        width: 100%;
-        height: auto;
-    }
-
-    .prof-img span, .time, .more {
-        font-size: 14px;
-    }
-
-    .icons i {
-        font-size: 24px;
-        padding: 10px;
-    }
-
-    .comment {
-        font-size: 14px;
-    }
-
-    .right-top {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .top-img {
-        margin-bottom: 10px;
-    }
-
-    .top-name {
-        margin-left: 0;
-        font-size: 18px;
-    }
-
-    .top-name span {
-        font-size: 14px;
-    }
-
-    .top-button {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    .right-title {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .right-body {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .right-footer {
-        text-align: center;
-        padding: 20px;
-    }
+.box {
+    height: auto;
+    width: 250px;
+    margin-left: 60%;
+}
+.post img {
+    height: 300px;
+    width: 190px;
+}
+.prof-img .more {
+    margin-left: 10%;
+    font-size: 15px;
+}
+.prof-img img {
+    height: 40px;
+    width: 40px;
+}
+.prof-img{
+    padding: 10px;
+}
+.icons i{
+    padding: 10px;
+    font-size: 20px;
+}
+#fav1, #fav2, #fav3 {
+    margin-left: 70px;
+}
+.left-top img {
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+}
+.left-body ul a li, .left-bottom ul a li {
+    margin-left: 0px;
+    font-size: 10px;
+    padding: 0px;
+    width: 100%;
+}
+.left-body ul a li i {
+    font-size: 10px;
+    padding: 10px;
+}
+.div-left{
+    height: auto;
+    width: 24%;
+}
+.left-body, .left-bottom{
+    height: auto;
+    width: 100px;
+}
+.left-bottom{
+    margin-top: 50px;
+}
+.nav-img{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    margin: 5px;
+    font-size: 12px;
+    margin-top: 0px;
+}
+.img10, .img11, .img12, .img13{
+    display: none;
+} 
 }
