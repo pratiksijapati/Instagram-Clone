@@ -19,5 +19,11 @@ followbtn.forEach((button)=>{
         }
     });
 })
+document.getElementById("hamburger").addEventListener("click", function(){
+    var leftbody=document.getElementById("left-body");
+    var leftbottom=document.getElementById("left-bottom");
+    leftbody.classList.toggle('active');
+    leftbottom.classList.toggle('active');
 
+})
 })

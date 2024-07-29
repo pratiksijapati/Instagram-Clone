@@ -78,7 +78,6 @@ width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid white; */
 }
 
 .top-img{
@@ -260,5 +259,12 @@ background-size: cover;
     padding: 10px;
     color: rgba(255, 255, 255, 0.594);
 }
-
+.hamburger{
+    font-size: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: 10px;
+    display: none;
+    margin-top: -15px;
+}
 
